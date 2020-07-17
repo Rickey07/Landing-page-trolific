@@ -1,0 +1,29 @@
+@media (max-width:306px) {
+    .card {
+        width: 90% !important;
+        display: block;
+        margin: 0 auto;
+    }
+}
+
+@media (min-width: 992px) {
+    .navbar-expand-lg .navbar-nav {
+        flex-direction: row;
+        min-width: 100%;
+        justify-content: flex-end;
+    }
+}
+
+@media (max-width:352px) {
+    .navmenubtm ul li {
+        list-style: none;
+        color: black;
+        padding-right: .3rem;
+    }
+
+    .content-container {
+        left: 1%;
+        padding: 15px;
+        top: 20%;
+    }
+}

@@ -1,0 +1,306 @@
+
+
+/* navbar items alignment  */
+
+
+.nav-item {
+    margin-left: 1rem;
+    margin-right: 1rem;
+    
+}
+
+.nav-item a {
+    color: var(--color-nav-item) !important;
+    
+}
+
+.nav-item a:hover {
+    color: var(--color-nav-item-hover) !important;
+    
+}
+
+/* navbar items styling colors fonts  */
+nav {
+    background: var(--color-bg-navbar) !important;
+  
+}
+
+.navbar-brand {
+    font-family: 'Lobster', cursive;;
+    font-size: 3rem !important;
+}
+
+
+.image-content-section {
+    background: url('/images/sven-d-a4S6KUuLeoM-unsplash.jpg') no-repeat center center/cover fixed;
+    height: 90vh;
+    width: 100%;
+}
+
+.content-relative-container {
+    position: relative;
+    height: 80%;
+    width: 80%;
+}
+
+.content-container {
+    position: absolute;
+    top: 35%;
+    left: 7%;
+    background:#f3f0f0;
+    padding: 40px;
+    height: 70%;
+}
+
+.content-container .two-span-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.content-container .two-span-container a {
+    text-decoration: none;
+    margin-left: .8rem;
+    padding: .7rem;
+    background: #fff;
+    margin-bottom: .8rem;
+    border: 1px solid black;
+    border-radius: 10px;
+    color: black;
+}
+
+.content-container .two-span-container a:hover {
+    color: white;
+    background: rgba(0, 0, 0, 0.7);
+}
+   
+
+    
+.two-dropdown-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+.two-dropdown-container select {
+    width: 90%;
+    padding: .3rem .7rem;
+}
+
+/* Todo style all the content-container  */
+
+
+.black-empty-section {
+    background: rgb(0, 0, 0);
+    padding: 1.5rem;
+}
+
+.image-content-aboutus-section {
+    background: url('/images/shan-a-rajpoot-jYfsmIjqEeM-unsplash.jpg') no-repeat center center/cover fixed;
+    height: 80vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    color: #ffffff;
+}
+
+.image-content-aboutus-section button {
+    display: block;
+    margin: 0 auto;
+    outline: none;
+    border: 1px solid black;
+    border-radius: .3rem;
+    padding: .2rem .5rem;
+    margin-top: 1rem;
+    padding: .3rem .5rem;
+    background: #fff;
+}
+
+.image-content-aboutus-section button:hover {
+    background: rgba(0, 0, 0, 0.7);
+    color: white;
+}
+
+.most-viewed-cars-section {
+    height: 100%;
+    width: 100%;
+}
+
+.heading-container {
+    text-align: center;
+    margin-top: 1rem;
+    padding: 1rem;
+}
+
+
+
+.carousel-item {
+    border: 2px solid black;
+    border-radius: .7rem;
+}
+
+.carousel-caption button {
+    text-align: center;
+    padding: .7rem;
+    background: rgba(0, 0, 0, 0.7);
+    border-radius: .2rem;
+    color: #fff;
+}
+
+.carousel-caption button:hover {
+    background: #fff;
+    color: black;
+}
+
+.empty-redgradient-section {
+    background: linear-gradient(90deg , red , darkred , red);
+    padding: 2rem;
+    margin-top: 1rem;
+}
+.card {
+    width: 90% !important;
+    display: block;
+    margin: 0 auto;
+}
+
+.card .img-container {
+    
+    overflow: hidden;
+}
+
+.card .img-container:hover img {
+    transition: transform .3s ease-in;
+}
+
+.card .img-container:hover img {
+    transform: scale(1.5);
+}
+
+.card button:hover {
+    background: rgb(231, 150, 150) !important;
+}
+
+.most-popular-section {
+    padding-bottom: 4rem;
+}
+
+
+.empty-redgradient-section1 {
+    background: linear-gradient(90deg , red , darkred , red);
+    padding: .6rem;
+    margin-top: 2rem;
+}
+
+.contact-image {
+    height: 70%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1.5rem;
+}
+
+.contact-container {
+    height: 77%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1.5rem;
+}
+
+.contact-container a {
+    text-decoration: none;
+    color: black;
+    padding: .9rem 1.1rem;
+    background: rgb(199, 157, 238);
+    border-radius: .2rem;
+}
+
+.contact-container a:hover {
+    color: white;
+    background: rgb(170, 106, 230);
+}
+
+.chooseus-container {
+    text-align: center;
+    margin-right: 21px;
+    margin-bottom: 3rem;
+    transition: 0.3s all;
+}
+
+.chooseus-container:hover {
+    transform: scaleY(1);
+    box-shadow: 0px 0px 20px 0px;
+}
+
+footer {
+    background: url('/images/sven-d-a4S6KUuLeoM-unsplash.jpg') no-repeat center center/cover;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+}
+
+.last-section-footer {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+}
+
+.head-para-cont {
+    text-align: center;
+}
+
+.head-para-cont div {
+    font-family: 'Lobster', cursive;;
+    font-size: 3rem !important;
+
+}
+
+.head-para-cont p {
+    color: white;
+    margin-top: 1rem;
+    font-size: 1.5rem;
+}
+
+.navmenubtm ul {
+    display: flex;
+    min-width: fit-content;
+}
+
+.navmenubtm ul li {
+    list-style: none;
+    color: black;
+    padding-right: 1rem;
+}
+
+.navmenubtm ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.1rem;
+}
+
+
+.sociallink-container ul {
+    display: flex;
+    flex-direction: row;
+}
+
+.sociallink-container ul li {
+    padding: .3rem .7rem;
+    margin-right: .7rem;
+    list-style: none;
+}
+
+.socilalnk-container ul li a :hover{
+    color: #fff;
+}
